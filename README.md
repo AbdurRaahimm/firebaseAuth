@@ -1,16 +1,27 @@
-# React Vite Tailwind Project
-This is a template for a React project with Vite and Tailwind CSS.
+# Firebase Authentication with React
 
-## Usage
+This is a simple project to demonstrate how to use Firebase Authentication with React. This project uses Firebase Authentication to authenticate users using email and password. It also demonstrates how to create a new user, sign in an existing user, sign out a user, and reset the password of a user.
+
+## Prerequisites
+- Node.js
+- Firebase Account
+- Firebase Project
+
+
+## Installation in Local Machine
 1. Clone this repository
 ```bash
-git clone https://github.com/AbdurRaahimm/react-vite-tailwind-starter.git
+git clone https://github.com/AbdurRaahimm/firebaseAuth.git
 ```
-2. Run The Essential Dependency
+2. Change the directory
+```bash
+cd firebaseAuth
+```
+3. Run The Essential Dependency
 ```bash
 npm install
 ```
-3. Run `npm run dev` to start the development server
+4. Run `npm run dev` to start the development server
 ```bash
 npm run dev
 ```
@@ -18,17 +29,32 @@ npm run dev
 ```bash
 npm run build
 ```
-5. Run `npm run serve` to serve the build
-```bash
-npm run serve
-```
 
-## Features
+
+## Features 
+- Create a new user
+- Sign in an existing user
+- Sign out a user
+- Reset the password of a user
+- Google Sign In
+
+## Technologies Used
 - React
-- Vite
+- Firebase
 - Tailwind CSS
-- ESLint
-- Prettier
+- React Router
+- React-Toastify
+
+## Screenshots
+1. Sign Up Page
+![Sign Up Page](./public/image.png)
+
+2. Sign In Page
+![Sign In Page](./public/image-1.png)
+
+3. Profile Page
+![alt text](./public/image-2.png)
+
 
 
 ## Connect on Social Media

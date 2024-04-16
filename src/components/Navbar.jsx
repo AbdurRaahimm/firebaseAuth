@@ -1,4 +1,5 @@
 import React from 'react'
+import viteLogo from '/vite.svg'
 import { Link, NavLink } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import { getCookie } from '../lib/cookies'
@@ -17,7 +18,9 @@ export default function Navbar() {
     }
     return (
         <header className='flex justify-between items-center  p-2 shadow'>
-            <h1 className='text-xl font-bold'>Logo</h1>
+            <h1 className='text-xl font-bold'>
+                <img src={viteLogo} alt="" />
+            </h1>
             <nav>
                 <ul className='flex justify-around space-x-2'>
                     <li className='border-r-2 pr-2 text-md font-semibold'>
