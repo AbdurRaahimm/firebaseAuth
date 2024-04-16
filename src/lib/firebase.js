@@ -8,7 +8,7 @@ import { getFirestore } from "firebase/firestore";
 
 //  Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD6m7je9hogTOtT2kPdvbhEw-hEN3mai8U",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "react-authentication-75bab.firebaseapp.com",
   projectId: "react-authentication-75bab",
   storageBucket: "react-authentication-75bab.appspot.com",
