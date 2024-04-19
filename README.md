@@ -37,6 +37,7 @@ npm run build
 - Sign out a user
 - Reset the password of a user
 - Google Sign In
+- Search Posts
 
 ## Technologies Used
 - React
@@ -54,6 +55,19 @@ npm run build
 
 3. Profile Page
 ![alt text](./public/image-2.png)
+
+4. Create New Post
+![Create New Post](./public/image-3.png)
+
+5. Show All Posts
+![Show All Posts](./public/image-4.png)
+
+6. Single Post
+![Single Post](./public/image-5.png)
+
+7. Update Post
+![Update Post](./public/image-6.png)
+
 
 
 
