@@ -8,6 +8,9 @@ import Profile from "./pages/Profile";
 import ProtectRoute from "./components/ProtectRoute";
 import { getCookie } from "./lib/cookies";
 import ForgotPassword from "./pages/ForgotPassword";
+import CreatePost from "./pages/CreatePost";
+import PostUpdate from "./pages/PostUpdate";
+import PostDetails from "./pages/PostDetails";
 
 const token = getCookie('token');
 
@@ -17,7 +20,10 @@ const router = createBrowserRouter(
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="post-details/:id" element={<PostDetails />} />
         <Route path="profile" element={<ProtectRoute><Profile /></ProtectRoute>} />
+        <Route path="create-post" element={<ProtectRoute><CreatePost /></ProtectRoute>} />
+        <Route path="post-update/:id" element={<ProtectRoute><PostUpdate /></ProtectRoute>} />
       </Route>
 
       <Route path="signup" element={token ? <Navigate to='/' /> : <SignUp />} />

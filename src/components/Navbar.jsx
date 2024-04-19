@@ -35,6 +35,13 @@ export default function Navbar() {
                             return {
                                 color: isActive ? 'red' : 'black'
                             }
+                        }} to='create-post'>Create Post</NavLink>
+                    </li>
+                    <li className='border-r-2 pr-2 text-md font-semibold'>
+                        <NavLink style={({ isActive }) => {
+                            return {
+                                color: isActive ? 'red' : 'black'
+                            }
                         }} to='/about'>About</NavLink>
                     </li>
                     <li className='text-md font-semibold'>
